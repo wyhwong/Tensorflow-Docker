@@ -53,6 +53,6 @@ make clean
 
 ## Jupyter Notebook Server
 
-Go to [localhost:8888](localhost:8888)
+Go to [localhost:8888](http://www.localhost:8888)
 
 The password is `wyhwong`.
