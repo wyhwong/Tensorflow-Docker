@@ -48,3 +48,10 @@ make jupyter_down
 # Clean all containers
 make clean
 ```
+
+---
+
+## Jupyter Notebook Server
+
+Go to [localhost:8888](localhost:8888)
+The password is `wyhwong`.
