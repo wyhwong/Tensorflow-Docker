@@ -1,4 +1,4 @@
-# Learnerlog - Docker Environment for 
+# Learnerlog - Docker Environment for DeepLearning.AI TensorFlow Developer Professional Certificate
 
 [Link to the certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 
@@ -21,7 +21,11 @@ This repo works for WSL2 on Windows10
 
 ## Repo setup
 ```bash
-git clone git@github.com:wyhwong/Learnerlog-docker-env-for-tensorflow-cert.git
+# Clone the repo
+git clone git@github.com:wyhwong/learnerlog-tensorflow-cert.git
+
+# Initiate notebooks from public git repo of DeepLearning.AI TensorFlow Developer Professional Certificate
+git submodule update --init
 ```
 
 ---
