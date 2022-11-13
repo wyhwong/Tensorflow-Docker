@@ -1,16 +1,30 @@
 # Learnerlog - Docker Environment for DeepLearning.AI TensorFlow Developer Professional Certificate
 
-[Link to the certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+[Link to the DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+
+[Link to my certificate of completion](https://coursera.org/share/e400ca52a2668ccebf9edbce2788e088)
 
 ---
 
 ## Hardware Environment
 
 ```
+Desktop:
 GPU: ZOTAC GeForce® GTX 1060 Mini 6GB
-CPU: intel i5-6500
-RAM: 16 GB
+CPU: Intel® Core™ i5-6500 Processor
+RAM: 16 GB DDR4
 ```
+
+Or
+
+```
+Laptop:
+Model: Lenovo IdeaPad S540
+GPU: NVIDIA® GeForce® MX250
+CPU: Intel® Core™ i5-10210U Processor
+RAM: 8 GB DDR4
+```
+
 
 ---
 
@@ -22,7 +36,7 @@ This repo works for WSL2 on Windows10
 ## Repo setup
 ```bash
 # Clone the repo
-git clone git@github.com:wyhwong/learnerlog-tensorflow-cert.git
+git clone git@github.com:wyhwong/learnerlog-tensorflow-certificate.git
 
 # Initiate notebooks from public git repo of DeepLearning.AI TensorFlow Developer Professional Certificate
 git submodule update --init
@@ -53,6 +67,6 @@ make clean
 
 ## Jupyter Notebook Server
 
-Go to [localhost:8888](http://www.localhost:8888)
+Go to [localhost:8888](http://www.localhost:8888) (If you didn't specify other port).
 
 The password is `wyhwong`.
