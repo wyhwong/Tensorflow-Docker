@@ -6,7 +6,7 @@
 
 ---
 
-## Hardware Environment
+## Hardware
 
 ```
 Desktop:
@@ -33,13 +33,10 @@ This repo works for WSL2 on Windows10
 
 ---
 
-## Repo setup
+## Usage
 ```bash
-# Clone the repo
-git clone git@github.com:wyhwong/learnerlog-tensorflow-certificate.git
-
-# Initiate notebooks from public git repo of DeepLearning.AI TensorFlow Developer Professional Certificate
-git submodule update --init
+# Clone the repository and initiate notebooks from public git repo of DeepLearning.AI TensorFlow Developer Professional Certificate
+git clone --recurse-submodules git@github.com:wyhwong/learnerlog-tensorflow-certificate.git
 ```
 
 ---
