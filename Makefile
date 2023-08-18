@@ -1,15 +1,16 @@
 export DOCKER_BUILDKIT=1
 
-port ?= 8888
+export PORT?=8888
+export TZ?=Asia/Hong_Kong
+export USERNAME?=$(shell whoami)
+export USER_ID?=$(shell id -u)
+export GROUP_ID?=$(shell id -g)
 
 build:
-	port=${port} docker-compose build
+	docker-compose build
 
-jupyter_up:
-	port=${port} docker-compose up -d tensorflow_cert_jupyter
-
-jupyter_down:
-	port=${port} docker-compose kill tensorflow_cert_jupyter
+start:
+	docker-compose up -d
 
 clean:
-	port=${port} docker-compose down --remove-orphans
+	docker-compose down --remove-orphans

@@ -36,7 +36,7 @@ This repo works for WSL2 on Windows10
 ## Usage
 ```bash
 # Clone the repository and initiate notebooks from public git repo of DeepLearning.AI TensorFlow Developer Professional Certificate
-git clone --recurse-submodules git@github.com:wyhwong/learnerlog-tensorflow-certificate.git
+git clone --recurse-submodules https://github.com/wyhwong/Tensorflow-Docker.git
 ```
 
 ---
@@ -48,15 +48,12 @@ git clone --recurse-submodules git@github.com:wyhwong/learnerlog-tensorflow-cert
 make build
 
 # Start jupyter notebook server
-make jupyter_up
+make start
 
 # If you want to specify the port used for jupyter notebook server
-make port=<port> jupyter_up
+make PORT=<PORT> start
 
 # Kill jupyter notebook server
-make jupyter_down
-
-# Clean all containers
 make clean
 ```
 
@@ -65,5 +62,3 @@ make clean
 ## Jupyter Notebook Server
 
 Go to [localhost:8888](http://www.localhost:8888) (If you didn't specify other port).
-
-The password is `wyhwong`.
